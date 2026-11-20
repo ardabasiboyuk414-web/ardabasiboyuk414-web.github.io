@@ -1,5 +1,5 @@
 {
-  "guncellendi": "2026-11-19T18:16+03:00",
+  "guncellendi": "2026-11-20T17:54+03:00",
   "sinavlar": [
     {
       "kod": "GUY",
@@ -72,6 +72,15 @@
       "basvuru_bitis": null,
       "gec_basvuru_bitis": null,
       "sinav_tarihi": "2026-12-27"
+    },
+    {
+      "kod": "Kaymakamlık",
+      "ad": "2027-Kaymakamlık",
+      "link": "https://www.osym.gov.tr/SinavGrubu/Index/46",
+      "basvuru_baslangic": "2026-12-16T00:00:00+03:00",
+      "basvuru_bitis": "2026-12-21T23:59:00+03:00",
+      "gec_basvuru_bitis": "2026-12-29T23:59:00+03:00",
+      "sinav_tarihi": "2027-01-31"
     }
   ]
 }
