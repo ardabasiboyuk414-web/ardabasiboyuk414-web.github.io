@@ -1,15 +1,6 @@
 {
-  "guncellendi": "2026-11-22T17:03+03:00",
+  "guncellendi": "2026-11-23T20:24+03:00",
   "sinavlar": [
-    {
-      "kod": "YDS",
-      "ad": "2026-YDS/2",
-      "link": "https://www.osym.gov.tr/SinavGrubu/Index/7",
-      "basvuru_baslangic": "2026-09-30T10:00:00+03:00",
-      "basvuru_bitis": "2026-10-08T23:59:00+03:00",
-      "gec_basvuru_bitis": "2026-10-14T23:59:00+03:00",
-      "sinav_tarihi": "2026-11-22"
-    },
     {
       "kod": "YÖK-YKDS",
       "ad": "2026-YÖK-YKDS",
