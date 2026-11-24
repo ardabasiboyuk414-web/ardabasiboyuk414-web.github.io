@@ -10,7 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="ortak.css">
-  <link rel="stylesheet" href="kedi/kedi.css">
   <style>
 
     /* Üst satır: solda üniversite sistemleri, sağda ayarlar */
@@ -341,10 +340,6 @@
       .arrow { width: 32px; height: 32px; }
       .govde { grid-template-columns: 1fr; grid-template-areas: "osym" "araclar" "yemek"; row-gap: 24px; }
     }
-    /* Alt bilgi: solda yazı, sağda kedinin dolaştığı şerit */
-    footer.kedili { align-items: flex-end; flex-wrap: nowrap; padding-top: 4px; padding-bottom: 6px; }
-    footer.kedili > span { padding-bottom: 6px; white-space: nowrap; }
-
     @media (prefers-reduced-motion: reduce) {
       .kisayollar, .tool, .siradaki, .yaklasan { animation-name: fade; }
       .tool:active, .tool:hover .arrow, .siradaki:active, .kisayollar a:active { transform: none; }
@@ -432,9 +427,8 @@
     </div>
   </main>
 
-  <footer class="kedili">
+  <footer>
     <span>ÖDHM · <span id="yil"></span></span>
-    <div class="kedi-serit" id="kedi-serit"></div>
   </footer>
 
   <script>
@@ -691,12 +685,5 @@
     })();
 
   </script>
-  <script src="kedi/ayar.js" defer></script>
-  <script src="kedi/baglanti.js" defer></script>
-  <script src="kedi/kurallar.js" defer></script>
-  <script src="kedi/durum.js" defer></script>
-  <script src="kedi/bildirim.js" defer></script>
-  <script src="kedi/karakter.js" defer></script>
-  <script src="kedi/ana.js" defer></script>
 </body>
 </html>
